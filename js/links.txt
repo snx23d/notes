@@ -1,0 +1,9 @@
+https://modernweb.com/45-useful-javascript-tips-tricks-and-best-practices/
+https://www.jstips.co/en/javascript/comma-operaton-in-js/
+https://www.jstips.co/en/javascript/three-useful-hacks/
+https://www.jstips.co/en/javascript/advanced-properties/
+https://www.jstips.co/en/javascript/helpful-console-log-hacks/
+https://www.jstips.co/en/javascript/create-range-0...n-easily-using-one-line/
+https://www.jstips.co/en/javascript/improve-nested-conditionals/
+https://www.jstips.co/en/javascript/template-strings/
+https://www.jstips.co/en/javascript/check-if-a-property-is-in-a-object/

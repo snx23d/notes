@@ -1,0 +1,37 @@
+https://www.guru99.com/xpath-selenium.html
+
+document.evaluate("/html/body//h2", document, null, XPathResult.ANY_TYPE, null)
+document.evaluate("/html/body//h2", document, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null)
+document.evaluate("/html/body//h2", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null)
+
+
+//tagName[@attribute='value'] - Relative Xpath, Absolute xpath, partial xpath
+//input[@name='identifier'][@id='identifierId']
+//input[@name='identifier' and @id='identifierId']
+
+//*[@id="identifierId"]
+
+//tagName[@attribute='value']
+//tagName[@attribute='value'][@attribute='value'][@attribute='value']
+//tagName[starts-with(@attribute,'value')]
+//tagName[contains(@attribute,'value')]
+//tagName[text()='value']
+//tagName[contains(text(),'partialvalue')]
+//tagName[@attribute='value']/..
+
+//tagName[@attribute='value']/parent::tagname
+//tagName[@attribute='value']/following-sibling::tagname
+//tagName[@attribute='value']/preceding-sibling::tagname[1]
+
+parent div that contains p child node in the tree with attribute class wildcarded
+
+//div[.//p[contains(@class, "para")]]
+
+element or other element
+//input[@attribute='value'] | //div[@class='value']
+
+
+normalize space and map to lower/upper case:
+
+normalize-space(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'))
+normalize-space(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'))

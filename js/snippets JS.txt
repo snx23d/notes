@@ -1,0 +1,46 @@
+
+
+improved, 'hidden' switch statement:
+
+var colorObj = {
+  'black': printBlackBackground,
+  'red': printRedBackground,
+  'blue': printBlueBackground,
+  'green': printGreenBackground,
+  'yellow': printYellowBackground
+};
+
+if (color in colorObj) {
+  colorObj[color]();
+}
+
+************************************************************
+
+if(condition){
+    dosomething();
+}
+
+is the same as:
+condition && dosomething();
+
+************************************************************
+
+a = a || 'default value';
+
+
+************************************************************
+
+//comma operator
+return obj.foo = 42, obj;
+
+************************************************************
+
+console colors:
+red = "\033[31m",
+green = "\033[32m",
+yellow = "\033[33m",
+blue = "\033[34m",
+magenta = "\033[35m",
+cyan = "\033[36m",
+reset = "\033[0m";
+

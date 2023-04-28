@@ -1,0 +1,14 @@
+medium.com/xebia-engineering/jpa-entity-graph-in-action-9800bd4f689d
+vladmihalcea.com/jpa-entity-graph
+concretepage.com/spring-boot/spring-boot-crudrepository-example
+
+git-scm.com/book/en/v2/Git-Tools-Submodules
+
+swtestacademy.com/return-subclass-instance-java-generics
+copyprogramming.com/faq/generic-interface
+reflectoring.io/assertj-lists/
+https://sqa.stackexchange.com/questions/37294/what-are-design-patterns-for-rest-assured
+
+https://stackoverflow.com/questions/8082595/how-do-i-generate-a-cartesian-product-in-java
+
+generator.it/#!

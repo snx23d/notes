@@ -1,0 +1,28 @@
+https://regex101.com/
+
+regexes
+
+regex of M. from The Parser:
+negative lookahead
+/^(?!regex).*$/		substitution	 - if a string does not match regex then replace with substitution else return all unchanged.
+
+example
+^(?!(.*length \d+)).*$	smth
+normal text (N131)		smth
+
+my regex: (positive lookahead)
+^(?=(this is the checked pattern)).*$ - if a string match regex then replace with substitution else return all unchanged.
+
+example:
+
+^(?=(.*length \d+)).*$		smth
+normal text S 06			smth
+
+************************************************************
+
+&nbsp; = (\xa0)
+
+************************************************************
+
+\s\S - all new line characters
+

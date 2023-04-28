@@ -1,0 +1,4 @@
+
+power query - excel tool to import large amount of data from db to xls file
+
+select * from ... where... order by xyz asc (MAXDOP 1) - when query fails due to large amount of data

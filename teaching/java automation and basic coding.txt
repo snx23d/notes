@@ -1,0 +1,68 @@
+java
+http://tutorials.jenkov.com/java/index.html
+https://www.w3schools.com/java/default.asp
+
+ide
+https://www.youtube.com/watch?v=yefmcX57Eyg
+
+javascript - mniej, ale te¿ niezbêdne
+https://www.w3schools.com/js/default.asp
+https://developer.mozilla.org/en-US/
+
+collections - map set lists queue
+https://www.youtube.com/playlist?list=PLL8woMHwr36HmQfxqqqxns5GexTNmxFqK&app=desktop
+
+selenium
+https://www.selenium.dev/documentation/en/		- wszystko
+https://intellipaat.com/blog/tutorial/selenium-tutorial/		- wszystko
+https://www.selenium.dev/selenium/docs/api/java/
+
+selectors
+https://www.w3schools.com/cssref/css_selectors.asp
+https://www.w3schools.com/xml/xpath_intro.asp
+
+selenide
+https://selenide.org/documentation.html
+https://selenide.org/javadoc/current/index.html
+
+cucumber
+https://www.youtube.com/watch?v=MCaXumfckmQ
+https://www.youtube.com/watch?v=nrggIRWK6qo
+https://docs.cucumber.io/
+
+regexes
+https://en.wikipedia.org/wiki/Regular_expression
+https://www.regular-expressions.info/
+https://regex101.com/
+
+pom
+https://medium.com/tech-tajawal/page-object-model-pom-design-pattern-f9588630800b
+https://martinfowler.com/bliki/PageObject.html
+https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html
+
+git
+https://www.youtube.com/watch?v=SWYqp7iY_Tc
+
+inheritance, is a vs has a
+https://www.w3resource.com/java-tutorial/inheritance-composition-relationship.php
+https://www.baeldung.com/java-inheritance-composition
+https://en.wikipedia.org/wiki/Composition_over_inheritance
+https://stackoverflow.com/questions/49002/prefer-composition-over-inheritance
+
+solid
+https://www.youtube.com/watch?v=dhnsegiPXoo&list=PLLWMQd6PeGY3ob0Ga6vn1czFZfW6e-FLr&index=1
+https://www.youtube.com/watch?v=AEnePs2Evg0&list=PLrhzvIcii6GMQceffIgKCRK98yTm0oolm
+https://medium.com/bgl-tech/what-are-the-solid-design-principles-c61feff33685
+
+design patterns
+https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc
+
+advanced topics, troubleshooting
+https://www.baeldung.com/
+https://www.javatpoint.com/
+https://stackoverflow.com/
+
+dependency injection
+http://picocontainer.com/
+https://martinfowler.com/articles/injection.html
+http://www.thinkcode.se/blog/2017/04/01/sharing-state-between-steps-in-cucumberjvm-using-picocontainerhttp://www.thinkcode.se/blog/2017/06/24/sharing-state-between-steps-in-cucumberjvm-using-spring

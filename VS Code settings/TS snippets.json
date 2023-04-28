@@ -1,0 +1,150 @@
+{
+	// Place your snippets for typescript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"driver.findElement": {
+        "prefix": "dfe",
+        "body": [
+            "await driver.findElement (By.css('${1}'));"
+        ],
+        "description": "driver.findElement"
+    },
+
+    "this.driver.findElement": {
+        "prefix": "tdfe",
+        "body": [
+            "await this.driver.findElement (By.css('${1:cssSelector}'));"
+        ],
+        "description": "this.driver.findElement"
+    },
+
+    ".getAttribute innerText": {
+        "prefix": "getit",
+        "body": [
+            "getAttribute('innerText')"
+        ],
+        "description": "getAttribute innerText"
+    },
+
+    "chai expect": {
+        "prefix": "chexp",
+        "body": [
+            "expect (${variable}).to.equal (${expectedValue});"
+        ],
+        "description": "getAttribute innerText"
+    },
+
+    "console log": {
+        "prefix": "cons",
+        "body": [
+            "console.log (${1});"
+        ],
+        "description": "console.log ()"
+    },
+
+    "it": {
+        "prefix": "it",
+        "body": [
+            "it('${1}', async function () {",
+            "    ${2}",
+            "});"
+        ],
+        "description": "it template"
+    },
+    "wait until element located": {
+        "prefix": "wait",
+        "body": [
+            "await this.driver.wait(until.elementLocated(By.css('${1}')), ${2});"
+        ],
+        "description": "wait template"
+    },
+
+    "ternary": {
+        "prefix": "tern",
+        "body": [
+            "${variable} = (${condition}) ? ${trueValue} : ${falseValue};"
+        ],
+        "description": "ternary assignment template"
+    },
+
+    "if something throw error": {
+        "prefix": "therr",
+        "body": [
+            "if (${condition}) {",
+            "   throw Error ('${errorMessage}');",
+            "}"
+        ],
+        "description": "if something throw error"
+    },
+
+    "if something throw type error": {
+        "prefix": "thtyerr",
+        "body": [
+            "if (${condition}) {",
+            "   throw TypeError ('${errorMessage}');",
+            "}"
+        ],
+        "description": "if something throw type error"
+    },
+
+    "sleep": {
+        "prefix": "sleep",
+        "body": [
+            "await this.driver.sleep(1000);"
+        ],
+        "description": "1 sec driver sleep"
+    },
+
+    "wait until element is visible": {
+        "prefix": "waitToBeVisible",
+        "body": [
+            "const ${element} = await this.driver.wait(until.elementLocated(By.css('${cssSelector}')), ${timeout});",
+            "await this.driver.wait(until.elementIsVisible(${element}), ${timeout});"
+        ],
+        "description": "wait for element to be visible template"
+    },
+
+    "scroll into view if needed": {
+        "prefix": "scrollIfNeeded",
+        "body": [
+
+            "const isElementDisplayed = await ${element}.isDisplayed();",
+            "if (! isElementDisplayed) {",
+            "    await this.driver.executeScript('arguments[0].scrollIntoView({block: \"center\", inline: \"center\"});', ${element});",
+            "}"
+        ],
+        "description": "scroll into view if needed"
+    },
+
+    "Promise.all()": {
+        "prefix": "promise.all",
+        "body": [
+
+            "const resolved${arrayOfPromises} = await Promise.all(${originalArray});",
+            
+        ],
+        "description": "Promise.all() complete template"
+    },
+
+    "describe": {
+        "prefix": "desc",
+        "body": [
+
+            "describe('${1:description}', async function () {",
+            "    ${2}",
+            "});",
+            
+        ],
+        "description": "describe template"
+    },
+}

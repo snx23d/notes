@@ -1,0 +1,92 @@
+{
+    "eslint.nodePath": "${execPath}",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "problems.autoReveal": true,
+    "typescript.tsserver.log": "verbose",
+    "typescript.npm": "C:/Program Files/nodejs",
+    "update.channel": "default",
+    "typescript.check.npmIsInstalled": false,
+    "git.ignoreMissingGitWarning": true,
+    "workbench.colorTheme": "Visual Studio Light",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "bracketPairColorizer.independentPairColors": [
+      [
+        "()",
+        [
+          "black",
+          "red",
+          "green",
+          "Blue",
+          "brown",
+          "Magenta"
+        ],
+        "Red"
+      ],
+      [
+        "[]",
+        [
+          "black",
+          "red",
+          "green",
+          "Blue",
+          "brown",
+          "Magenta"
+        ],
+        "Red"
+      ],
+      [
+        "{}",
+        [
+          "black",
+          "red",
+          "green",
+          "Blue",
+          "brown",
+          "Magenta"
+        ],
+        "Red"
+      ]
+    ],
+    "bracketPairColorizer.highlightActiveScope": true,
+    "bracketPairColorizer.consecutivePairColors": [
+      "()",
+      "[]",
+      "{}",
+      [
+        "black",
+          "red",
+          "green",
+          "Blue",
+          "brown",
+          "Magenta"
+      ],
+      "Red"
+    ],
+    "bracketPairColorizer.showBracketsInGutter": true,
+    "bracketPairColorizer.showBracketsInRuler": true,
+    "breadcrumbs.enabled": true,
+    "terminal.external.windowsExec": "C:\\\\Windows\\\\System32\\\\cmd.exe",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 180000,
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "prettier.tabWidth": 4,
+    "window.zoomLevel": 0,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.tabCompletion": "on",
+    "javascript.updateImportsOnFileMove.enabled": "always"
+  }
+

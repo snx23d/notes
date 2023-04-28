@@ -1,0 +1,38 @@
+js references:
+https://developer.mozilla.org/en-US/
+https://www.w3schools.com/js/default.asp
+
+everything from here:
+https://javascript.info/js
+
+free courses
+https://www.codecademy.com/catalog/language/javascript
+https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners/
+
+js in vscode:
+https://code.visualstudio.com/docs/languages/javascript
+
+async await/promises:
+https://www.youtube.com/watch?v=vn3tm0quoqE
+
+OOP in js:
+https://www.youtube.com/watch?v=DpFDj-6iYoY
+https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/
+
+***************************
+
+some more advanced topics:
+
+https://johnresig.com/apps/learn/
+
+design patterns (apply to any language):
+https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc&index=2
+https://blog.logrocket.com/guide-node-js-design-patterns/#streams
+
+SOLID, good practices - also apply to any language:
+https://www.youtube.com/watch?v=dhnsegiPXoo&list=PLLWMQd6PeGY3ob0Ga6vn1czFZfW6e-FLr&index=1
+
+***
+
+js selenium:
+https://www.youtube.com/watch?v=YWhxSsj1upg&list=PLA4JPGpQHctT__mDO9EHvOrWVW0Hkf5Mk

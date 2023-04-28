@@ -1,0 +1,26 @@
+https://www.w3schools.com/cssref/css_selectors.php
+
+
+document.querySelectorAll('div')
+
+input[id='identifierId']
+input[id='identifierId'][type='email']
+input[id^='identifie'] - starts-with
+input[id$='tifierId'] - ends-with
+input[id*='tifier'] - contains
+
+div.cls1.cls2 - div with class cls1 and cls2 and maybe other too
+
+div[class='cls1 cls2'] div with both cls1 cls2 and nothing else
+
+div.cls1.cls2 > div > div:nth-of-type(4)
+
+div.cls1.cls2 > div > div:first-child
+div.cls1.cls2 > div > div:last-child
+div.cls1.cls2 > div > div:nth-child(2)
+
+p[id^="lorem"][id$="Ipsum"] p with id starting with lorem and ending with ipsum
+
+
+all h2 without style attribute
+h2:not([style])
