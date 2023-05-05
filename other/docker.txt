@@ -1,0 +1,80 @@
+tutorial: https://www.youtube.com/watch?v=3c-iBn73dDE
+
+
+
+image - an application, container - running environment for that application, running environment for an image
+
+
+docker pull name - download an application image
+
+docker start - starts existing, stopped container
+docker start (id or container name) - start a container, either by acontainer id or a name
+docker start (id or container name) -d - start a container, either by acontainer id or a name in a detached mode (allows to attach different terminal there)
+
+
+docker images - list all images
+
+docker ps - list all running containers
+
+docker run = docker pull + docket start - creates a new container for an image
+
+docker stop (id or container name) - stop a container
+
+
+
+bind a container port to a host machine port
+docker run -phostPortNumber:containerPortNumber image
+docker run -p10000:6666 redis
+
+set a container name
+docker run redis --name myContainerName
+
+
+docker logs (id or container name) - get logs from a container
+
+set environmental variable for a container
+docker run redis -e varName=value
+
+docker network
+docker network ls - list all existing docker networks
+docker network create someNetworkName - create a network
+
+specify a network for a container
+docker run redis --net someNetworkName
+
+
+
+debug a container that exits immediately
+docker run -d --name test (id or container name) sleep infinity
+
+run a sh/bash terminal for a specific container:
+docker exec -it (id or container name) sh  - sh is the most likely to work
+docker exec -it (id or container name) bash
+exit - exit that terminal
+
+
+
+build docker image:
+docker build -t imageName:version pathToDockerfile
+docker build -t backend:1.0 .
+docker build -t backend-tests-js:1.0 . 
+
+
+docker compose command (start microservices tu start)
+
+docker-compose -f composeFileName.yaml up
+docker-compose -f docker-compose.yaml up
+
+stop services:
+docker-compose -f docker-compose.yaml down
+
+
+remove container:
+docker rm backend:1.0
+
+remove image:
+docker rmi backend:1.0
+
+export all container data as tar archive:
+docker export -output "name.tar" (id or container name)
+

@@ -3,6 +3,7 @@ vladmihalcea.com/jpa-entity-graph
 concretepage.com/spring-boot/spring-boot-crudrepository-example
 
 git-scm.com/book/en/v2/Git-Tools-Submodules
+https://www.youtube.com/watch?v=ZYq3NJnO08U
 
 swtestacademy.com/return-subclass-instance-java-generics
 copyprogramming.com/faq/generic-interface
