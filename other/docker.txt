@@ -78,3 +78,17 @@ docker rmi backend:1.0
 export all container data as tar archive:
 docker export -output "name.tar" (id or container name)
 
+
+jenkins
+
+
+docker pull jenkins/jenkins:lts-jdk11
+
+docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 -p 2375:2375 --restart=on-failure jenkins/jenkins:lts-jdk11
+
+jenkinsAdmin
+qwerty
+
+http://localhost:8080/
+
+
